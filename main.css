@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  cellspacing: 0;
+  cellpadding: 5;
+}
+
+tr td {
+  border: 1px solid darkgray;
+}
+
+.header-menu {
+  word-break: keep-all;
+  white-space: nowrap;
+  font-family: 'Karla', sans-serif;
+}
+
+.header-menu a {
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-menu a:hover {
+  color: #83F6FD;
+}
+
+.minara {
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  font-weight: normal;
+}
