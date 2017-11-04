@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"cell",
+				"cellpadding\tAttr"
+			],
+			[
+				"wrap",
+				"word-wrap"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
 				"$l",
 				"$location\tAngularJS"
 			],
@@ -40,10 +72,6 @@
 				"form-signin"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"ba",
 				"background-image"
 			],
@@ -54,10 +82,6 @@
 			[
 				"align",
 				"text-align"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"b",
@@ -315,7 +339,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 633,
+				"buffer_size": 4663,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -324,7 +348,8 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1176,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -337,9 +362,13 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "read",
+		"last_filter": "colo",
 		"selected_items":
 		[
+			[
+				"colo",
+				"Color Picker"
+			],
 			[
 				"read",
 				"ReadmePlease"
@@ -455,6 +484,7 @@
 	],
 	"file_history":
 	[
+		"/D/GitHub/template-layout/main.css",
 		"/D/GitHub/template-layout/Minara - WordPress Magazine Theme for Bloggers Preview - ThemeForest.html",
 		"/D/GitHub/template-layout/.gitignore",
 		"/D/GitHub/min-express-srv/public/js/core.controller.js",
@@ -581,8 +611,7 @@
 		"/D/GitHub/tim-burton-filmography/src/films/Alice in Wonderland.json",
 		"/D/GitHub/tim-burton-filmography/src/films/Pee-wee's Big Adventure.json",
 		"/D/GitHub/tim-burton-filmography/src/films/Batman Forever.json",
-		"/D/GitHub/tim-burton-filmography/src/films/Batman Returns.json",
-		"/D/GitHub/tim-burton-filmography/src/films/Batman.json"
+		"/D/GitHub/tim-burton-filmography/src/films/Batman Returns.json"
 	],
 	"find":
 	{
@@ -603,6 +632,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"header-body-title",
 			"404",
 			"isAuthenticated",
 			"isAuth",
@@ -727,15 +757,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 633,
+						"buffer_size": 4663,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								452,
-								452
+								4068,
+								4068
 							]
 						],
 						"settings":
@@ -745,12 +775,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										4065,
+										4067
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										3532,
+										3534
+									]
 								},
 								"unmatched":
 								{
@@ -830,15 +875,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								772,
+								772
 							]
 						],
 						"settings":
@@ -848,12 +893,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										773,
+										774
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										706,
+										707
+									]
 								},
 								"unmatched":
 								{
@@ -917,11 +977,12 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1301.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1000,9 +1061,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "min",
 		"selected_items":
 		[
+			[
+				"min",
+				"D:\\GitHub\\min-express-srv\\min-express-srv.sublime-project"
+			],
 			[
 				"",
 				"D:\\GitHub\\tim-burton-filmography\\tim-burton-filmography.sublime-project"
@@ -1027,7 +1092,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
