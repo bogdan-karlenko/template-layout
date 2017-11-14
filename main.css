@@ -1,6 +1,85 @@
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  line-height: 26px;
+  color: #757575;
+}
+
 a {
   text-decoration: none;
+  color: #757575;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Playfair Display", serif;
   color: black;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: normal;
+  color: black;
+}
+
+h1 a {
+  color: black;
+}
+
+.slider-title {
+  padding: 0 0 40px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0;
+}
+
+.slider-title::after {
+  content: "";
+  height: 3px;
+  width: 100px;
+  background: #4fbdf3;
+  margin-top: 40px;
+  display: block;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0 0 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+      margin: 0 0 35px;
+    padding: 0;
+    border-bottom: 2px solid #eeeded;
+    font-size: 14px;
+    padding-bottom: 1px;
+}
+
+.post-title a {
+  font-size: 16px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+li {
+  font-size: 16px;
 }
 
 .clearfix::after {
@@ -13,11 +92,13 @@ a {
   background-color: #fafbfb;
   height: 40px;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-left {
@@ -38,8 +119,19 @@ a {
   display: inline-block;
 }
 
+.header-left a {
+  padding-right: 25px;
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+}
+
 .header-left a:hover {
   color: #4fbdf3;
+}
+
+.header-right {
+    line-height: 40px;
 }
 
 .header-inner p {
@@ -54,12 +146,6 @@ a {
   float: left;
 }
 
- ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .header-nav li {
   display: inline-block;
 }
@@ -68,6 +154,17 @@ a {
   min-height: 60px;
   border-top: 1px solid #eeeded;
   border-bottom: 1px solid #eeeded;
+  margin-bottom: 40px;
+}
+
+.header-navbar li a {
+  text-transform: uppercase;
+  line-height: 60px;
+  padding-right: 25px;
+}
+
+.header-slider {
+  margin-bottom: 40px;
 }
 
 .header-slider-img {
@@ -80,20 +177,44 @@ a {
   max-width: calc(100% - 480px);
 }
 
+.slider-category a {
+  font-weight: bold;
+  font-size: 12px;
+    text-transform: uppercase;
+    color: #4fbdf3;
+    letter-spacing: 1px;
+}
+
+.slider-posttime {
+  float: left;
+  text-transform: uppercase;
+}
+
+.slider-readmore {
+  float: right;
+  text-transform: uppercase;
+}
+
 .main-sidebar {
   float: right;
   max-width: 300px;
 }
 
 .main-content {
-  width: calc(100% - 300px);
+  width: calc(100% - 330px);
   float: left;
+  margin-right: 30px;
 }
 
 .mag-style1 h4 a {
   float: right;
 }
 
+.mag-style1 h4 span {
+  color: #4fbdf3;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #4fbdf3;
+}
 .style1-big {
   margin-bottom: 50px;
 }
@@ -103,8 +224,8 @@ a {
 }
 
 .style1-big-content {
-float: right;
-width: calc(100% - 340px);
+  float: right;
+  width: calc(100% - 340px);
 }
 
 .style1-small {
@@ -119,15 +240,19 @@ width: calc(100% - 340px);
 }
 
 .style1-small-content {
-float: right;
-width: calc(100% - 150px);
+  float: right;
+  width: calc(100% - 150px);
+}
+
+.post-meta {
+  text-transform: uppercase;
 }
 
 .sidebar-popular {
   width: 260px;
 }
 
-.widget-post::after{
+.widget-post::after {
   content: "";
   display: table;
   clear: both;
@@ -140,4 +265,53 @@ width: calc(100% - 150px);
 .widget-post-content {
   float: right;
   max-width: calc(100% - 80px);
+}
+
+.sidebar-instagram ul {
+  line-height: 0;
+}
+
+.sidebar-instagram li {
+  display: inline-block;
+}
+
+.footer-bg {
+  background-color: #fafbfb;
+}
+
+.footer-categories {
+  float: left;
+  width: 300px;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.footer-recent {
+  float: left;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.footer-social {
+  float: right;
+  width: 300px;
+}
+
+footer h3,
+footer li {
+  border-bottom: 2px solid #eeeded;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-social li {
+  border: 2px solid #eeeded;
+}
+
+.footer-categories span {
+  float: right;
+}
+
+.footer-social i {
+  float: right;
 }
