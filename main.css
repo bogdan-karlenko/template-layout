@@ -3,7 +3,7 @@ table {
 }
 
 tr td {
-  border: 0px solid darkgray;
+  border: 1px solid darkgray;
 }
 
 
@@ -137,4 +137,8 @@ p {
 .body-small-img {
   padding-right: 15px;
   padding-top: 20px;
+}
+
+.body-table td {
+padding-bottom: 15px;
 }

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"text-decoration-",
+				"text-decoration-style"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"cel",
+				"cellspacing\tAttr"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
@@ -12,16 +52,8 @@
 				"font-size"
 			],
 			[
-				"cell",
-				"cellpadding\tAttr"
-			],
-			[
 				"wrap",
 				"word-wrap"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"mar",
@@ -86,10 +118,6 @@
 			[
 				"b",
 				"black"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"$route",
@@ -170,10 +198,6 @@
 			[
 				"td",
 				"td\tTag"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"main",
@@ -339,7 +363,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4663,
+				"buffer_size": 31391,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -348,7 +372,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 1176,
+				"buffer_size": 1854,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -480,7 +504,8 @@
 	},
 	"expanded_folders":
 	[
-		"/D/GitHub/template-layout"
+		"/D/GitHub/template-layout",
+		"/D/GitHub/template-layout/img"
 	],
 	"file_history":
 	[
@@ -748,7 +773,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -757,15 +782,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4663,
+						"buffer_size": 31391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4068,
-								4068
+								8351,
+								8351
 							]
 						],
 						"settings":
@@ -777,8 +802,8 @@
 								{
 									"1":
 									[
-										4065,
-										4067
+										9111,
+										9113
 									]
 								},
 								"icon":
@@ -793,8 +818,8 @@
 								{
 									"1":
 									[
-										3532,
-										3534
+										8321,
+										8323
 									]
 								},
 								"unmatched":
@@ -860,14 +885,22 @@
 								"bh_tag_content"
 							],
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4620.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"file": "img/img2-140x85.jpg",
+					"semi_transient": true,
+					"stack_index": 2,
+					"type": "image"
 				},
 				{
 					"buffer": 1,
@@ -875,15 +908,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1176,
+						"buffer_size": 1854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								772,
-								772
+								82,
+								82
 							]
 						],
 						"settings":
@@ -895,8 +928,8 @@
 								{
 									"1":
 									[
-										773,
-										774
+										166,
+										167
 									]
 								},
 								"icon":
@@ -911,8 +944,8 @@
 								{
 									"1":
 									[
-										706,
-										707
+										81,
+										82
 									]
 								},
 								"unmatched":
@@ -982,10 +1015,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1301.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1061,16 +1094,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "min",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"min",
+				"",
 				"D:\\GitHub\\min-express-srv\\min-express-srv.sublime-project"
 			],
 			[
-				"",
-				"D:\\GitHub\\tim-burton-filmography\\tim-burton-filmography.sublime-project"
+				"min",
+				"D:\\GitHub\\min-express-srv\\min-express-srv.sublime-project"
 			]
 		],
 		"width": 380.0
