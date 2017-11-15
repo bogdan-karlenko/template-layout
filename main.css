@@ -49,26 +49,27 @@ h1 a {
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 18px;
-    color: #000;
-    margin: 0;
-    padding: 0 0 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 h4 {
-      margin: 0 0 35px;
-    padding: 0;
-    border-bottom: 2px solid #eeeded;
-    font-size: 14px;
-    padding-bottom: 1px;
+  margin: 0 0 35px;
+  padding: 0;
+  border-bottom: 2px solid #eeeded;
+  font-size: 14px;
+  padding-bottom: 1px;
 }
 
-.post-title a {
+h5 {
   font-size: 16px;
   color: black;
+  font-weight: normal;
 }
 
 ul {
@@ -96,7 +97,7 @@ li {
 }
 
 .container {
-  width: 960px;
+  width: 1210px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -131,7 +132,7 @@ li {
 }
 
 .header-right {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 .header-inner p {
@@ -140,7 +141,9 @@ li {
 
 .header-search {
   float: right;
+  line-height: 60px;
 }
+
 
 .header-nav {
   float: left;
@@ -169,6 +172,7 @@ li {
 
 .header-slider-img {
   float: left;
+  margin: 0 auto;
 }
 
 .header-slider-content {
@@ -180,9 +184,9 @@ li {
 .slider-category a {
   font-weight: bold;
   font-size: 12px;
-    text-transform: uppercase;
-    color: #4fbdf3;
-    letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #4fbdf3;
+  letter-spacing: 1px;
 }
 
 .slider-posttime {
@@ -197,11 +201,11 @@ li {
 
 .main-sidebar {
   float: right;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .main-content {
-  width: calc(100% - 330px);
+  width: calc(100% - 380px);
   float: left;
   margin-right: 30px;
 }
@@ -215,12 +219,14 @@ li {
   padding-bottom: 5px;
   border-bottom: 2px solid #4fbdf3;
 }
+
 .style1-big {
   margin-bottom: 50px;
 }
 
 .style1-big-img {
   float: left;
+  height: 100%;
 }
 
 .style1-big-content {
@@ -237,6 +243,7 @@ li {
 
 .style1-small-img {
   float: left;
+  margin: auto 0;
 }
 
 .style1-small-content {
@@ -246,10 +253,15 @@ li {
 
 .post-meta {
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 .sidebar-popular {
-  width: 260px;
+  width: 310px;
+}
+
+.widget-content {
+  margin-bottom: 40px;
 }
 
 .widget-post::after {
@@ -281,20 +293,20 @@ li {
 
 .footer-categories {
   float: left;
-  width: 300px;
+  width: 350px;
   margin-right: 30px;
   text-transform: uppercase;
 }
 
 .footer-recent {
   float: left;
-  width: 300px;
+  width: 350px;
   margin-right: 30px;
 }
 
 .footer-social {
   float: right;
-  width: 300px;
+  width: 350px;
 }
 
 footer h3,
@@ -305,7 +317,12 @@ footer li {
 }
 
 .footer-social li {
+  height: 50px;
+  line-height: 50px;
   border: 2px solid #eeeded;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
 }
 
 .footer-categories span {
